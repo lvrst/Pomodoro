@@ -1,0 +1,29 @@
+.pomodoro {
+    width: 300px;
+    margin: 30px auto;
+    font-family: serif;
+    border-radius: 10px;
+    border: 1px outset silver;
+    overflow: hidden;
+    &__display {
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+    }
+    &__btn {
+        display: block;
+        padding: 1rem 3rem;
+        margin: 1rem auto;
+        background-color: violet;
+        border: 1px outset pink;
+        border-radius: 10px;
+        &:hover {
+            background-color: darken(violet, 20%);
+            color: white;
+        }
+    }
+}
+
+
