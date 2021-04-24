@@ -63,11 +63,11 @@ export class Pomodoro {
                     if (display.textContent === '00:00') {
                         clearInterval(id);
                         alert("DING!");
+                        button.classList.remove("activated");
                         button.textContent = 'Start';
                     }
                 }
             }
-            
         }
 
 
